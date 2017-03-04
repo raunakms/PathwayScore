@@ -1,6 +1,6 @@
 # PathwayScore
 
-PathwayScore is a collection of R-functions to compute pathway z-score given gene-expression data and genes mapped to corresponding pathways.
+PathwayScore is collection of R-functions to compute pathway z-score given gene-expression data and genes mapped to corresponding pathways.
 
 The rationale behind this concept is to find out how the pathway is behaving (either activating or repressing) given the expression pattern of expression of multiple genes.
   - For every gene, in expression data, might have different scales of expression-value.
