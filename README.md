@@ -26,6 +26,6 @@ get.pathway.zcore(file.expr, file.pathway)
 # Description:
   - file.expr = path of file containing gene-expression matrix with Row as Genes and Columns as Samples.
   - file.pathway = path of file containing pathway-gene relationship
-   -- each line should contain information about a unique pathway
-   -- first-column must contain name of the pathwayj
-   -- second-column must contain genes mapped to the corresponding pathway multiple genes must be separated by comma symbol (,)
+    - each line should contain information about a unique pathway
+    - first-column must contain name of the pathwayj
+    - second-column must contain genes mapped to the corresponding pathway multiple genes must be separated by comma symbol (,)
