@@ -9,11 +9,12 @@ The rationale behind this concept is to find out how the pathway is behaving (ei
 
 # Z-score
 ```sh
-Z-score = x_ij - m_i / sd_i
+Z_ij = x_ij - m_i / sd_i
 ```
  Here,
   - i = gene
   - j = sample
+  - Z_ij = Z-score of gene i in sample j
   - x_ij = expression value of gene i in sample j
   - m_i = mean of expression values in for gene i across all j
   - sd_i = standard-deviation of expression values in for gene i across all j
